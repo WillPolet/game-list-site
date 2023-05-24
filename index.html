@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Jeux</title>
+    <link rel="stylesheet" href="Jeux.css">
+</head>
+<body>
+    <input id="name" type="text" placeholder="Nom du jeu">
+    <input id="console" type="text" placeholder="Console">
+    <label class="switch">
+        <input id="myCheck" type="checkbox">
+        <span class="slider round"></span>
+    </label>
+    <input id="finishable" type="text" placeholder="finissable ?">
+    <button onclick="createObject()">Add</button>
+    <button onclick="showGameList()">Show</button>
+    <div id="ListOfGames">
+
+    </div>
+    
+<script src="Jeux.js"></script>
+</body>
+</html>
